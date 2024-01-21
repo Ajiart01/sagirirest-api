@@ -4,7 +4,7 @@
   "description": "My Rest Api Projectttttt",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js && npm audit fix --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
